@@ -6,6 +6,7 @@ import com.lan.bo.currencykotlin.model.ErrorModel
 import com.lan.bo.currencykotlin.model.InformationModel
 import com.lan.bo.currencykotlin.model.exception.ParameterException
 import okhttp3.OkHttpClient
+import org.springframework.beans.factory.annotation.Value
 import org.springframework.stereotype.Service
 import java.math.BigDecimal
 
@@ -13,12 +14,20 @@ import java.math.BigDecimal
 class CurrencyService {
     private val client = OkHttpClient()
     private val mapper = jacksonObjectMapper()
+
+
+    @Value("\${api.url}")
+    lateinit var apiUrl: String
+
+    @Value("\${api.key}")
+    lateinit var apiKey: String
+
     fun responseByCurrencyApi(from:String?, to:String?, amount: BigDecimal?): InformationModel {
 
-        println("request: https://api.apilayer.com/exchangerates_data/convert?from=$from&to=$to&amount=$amount")
+
         val request = okhttp3.Request.Builder()
-            .url("https://api.apilayer.com/exchangerates_data/convert?from=$from&to=$to&amount=$amount")
-            .addHeader("apikey", "jqPB058UIYBeQoPFJNMfd73RtwJEjFcK")
+            .url("$apiUrl?from=$from&to=$to&amount=$amount")
+            .addHeader("apikey", apiKey)
             .build()
         val responseBody = client.newCall(request).execute().use {
                 response ->
