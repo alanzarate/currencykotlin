@@ -66,6 +66,7 @@ class CurrencyBla(
 
     }
 
+
     private fun structData(response: InformationModel) {
         val currency =  Currency()
         currency.currencyFrom = response.query["from"].toString()
@@ -78,4 +79,5 @@ class CurrencyBla(
 
 
     }
+
 }
