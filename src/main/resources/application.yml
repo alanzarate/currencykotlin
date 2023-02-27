@@ -3,10 +3,10 @@ api:
   url: "https://api.apilayer.com/exchangerates_data/convert"
 spring:
   datasource:
-    driver-class-name: org.postgresql.jdbc2.optional.SimpleDataSource
-    url: ${URL:jdbc:postgresql://localhost:5432/recordsCurrencyKotlin}
+    driver-class-name: org.postgresql.Driver
+    url: ${URL:jdbc:postgresql://172.17.0.1:5432/currency}
     username: ${USERNAME:postgres}
-    password: ${PASSWORD:1234}
+    password: ${PASSWORD:mypass}
   application:
     name: currency-converter
   jpa:

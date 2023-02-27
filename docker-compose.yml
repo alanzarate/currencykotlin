@@ -1,0 +1,23 @@
+version: "2.4"
+services:
+  postgres:
+    image: postgres:15
+    mem_limit: 1024m
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: mypass
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+     
+
+  currencykotlin:
+    image: lan:v1
+    restart: always
+    mem_limit: 512m
+    ports:
+      - "7777:7777"
+    environment:
+      URL: "jdbc:postgresql://postgres:5432/currency"
+    depends_on:
+      - postgres
