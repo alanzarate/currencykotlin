@@ -1,12 +1,15 @@
 api:
-  key: jqPB058UIYBeQoPFJNMfd73RtwJEjFcK
+  key: ${API_KEY}
   url: "https://api.apilayer.com/exchangerates_data/convert"
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: ${URL:jdbc:postgresql://172.17.0.1:5432/currency}
-    username: ${USERNAME:postgres}
-    password: ${PASSWORD:mypass}
+    url: ${URL}
+    username: postgres
+    password: ${POSTGRES_PASSWORD}
+
+  config:
+    import: optional:file:.env[.properties]
   application:
     name: currency-converter
   jpa:

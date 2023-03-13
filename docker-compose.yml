@@ -1,23 +1,35 @@
 version: "2.4"
 services:
-  postgres:
+  databs:
     image: postgres:15
     mem_limit: 1024m
     ports:
-      - "5432:5432"
+      - "5555:5432"
     environment:
-      POSTGRES_PASSWORD: mypass
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     volumes:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
-     
+      - /home/lanplay/University/testvol:/var/lib/postgresql/data
 
-  currencykotlin:
-    image: lan:v1
+  backend:
+    build: .
     restart: always
     mem_limit: 512m
     ports:
       - "7777:7777"
     environment:
-      URL: "jdbc:postgresql://postgres:5432/currency"
+      PASSWORD: ${POSTGRES_PASSWORD}
+      URL: "jdbc:postgresql://databs:5432/currency"
+      API_KEY: ${API_KEY}
     depends_on:
-      - postgres
+      - databs
+  angular:
+    image: angular:4.0.1-docker
+    environment:
+      BACKEND_URL: backend
+    depends_on:
+      - backend
+    ports:
+      - "4200:80"
+    volumes:
+      - /home/lanplay/University/Arqui/front/testing1/nginx.conf:/etc/nginx/nginx.conf

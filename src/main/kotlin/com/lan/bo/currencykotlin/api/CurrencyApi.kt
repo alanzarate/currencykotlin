@@ -36,4 +36,16 @@ class CurrencyApi (
 
         return res
     }
+
+    @GetMapping("/all")
+    fun allMethod(@RequestParam customQuery: Map<String, String>): ResponseDto<Any> {
+        val limit = customQuery["limit"]
+        val currentPage = customQuery["currentPage"]
+        val sortBy = customQuery["sortBy"]
+        val order = customQuery["order"]
+        print("limite: $limit , currentPage: $currentPage , sortBy: $sortBy")
+
+        return currencyBl.getAllData(limit, currentPage, sortBy, order)
+    }
+
 }

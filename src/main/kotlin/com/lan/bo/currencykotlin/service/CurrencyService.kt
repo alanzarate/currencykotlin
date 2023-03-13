@@ -23,7 +23,7 @@ class CurrencyService {
     lateinit var apiKey: String
 
     fun responseByCurrencyApi(from:String?, to:String?, amount: BigDecimal?): InformationModel {
-
+        print(apiKey)
 
         val request = okhttp3.Request.Builder()
             .url("$apiUrl?from=$from&to=$to&amount=$amount")
