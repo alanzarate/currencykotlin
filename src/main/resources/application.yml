@@ -6,7 +6,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: ${URL}
     username: postgres
-    password: ${POSTGRES_PASSWORD}
+    password: mypass
 
   config:
     import: optional:file:.env[.properties]
