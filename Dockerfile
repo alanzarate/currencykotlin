@@ -3,9 +3,9 @@ COPY target/*.jar app.jar
 
 
 
-ENV USERNAME "postgres"
-ENV PASSWORD "mypass"
-ENV URL "jdbc:postgresql://192.168.10.10:8080/currency"
+ENV DB_USERNAME ${DB_USERNAME}
+ENV DB_PASSWORD ${DB_PASSWORD}
+ENV DB_URL ${DB_URL}
 ENV API_KEY ${API_KEY}
 
 

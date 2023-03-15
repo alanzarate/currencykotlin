@@ -6,7 +6,7 @@ services:
     ports:
       - "5555:5432"
     environment:
-      POSTGRES_PASSWORD: mypass
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
     volumes:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
       - /home/lanplay/University/testvol:/var/lib/postgresql/data
@@ -20,8 +20,9 @@ services:
     ports:
       - "7777:7777"
     environment:
-      PASSWORD: mypass
-      URL: "jdbc:postgresql://databs:5432/currency"
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_USERNAME: ${DB_USERNAME}
+      DB_URL: "jdbc:postgresql://databs:5432/currency"
       API_KEY: ${API_KEY}
     depends_on:
       - databs
