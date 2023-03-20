@@ -19,20 +19,3 @@ spring:
   
 server:
   port: 7777
-
-keycloak:
-  realm: Software
-  auth-server-url: http://localhost:8080
-  autodetect-bearer-only: true
-  ssl-required: external
-  resource: backend
-  credentials:
-    secret: aaDgIMBbngog2bHySb9KH8fN8k9lhm0v
-  use-resource-role-mappings: false
-  security-constraints:
-    - auth-roles:
-        - ADMIN
-      security-collections:
-        - name: SERVICIOS DEL ADMINISTRADOR
-          patters:
-            - /api/v1/currency/all
