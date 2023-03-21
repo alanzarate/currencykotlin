@@ -6,8 +6,7 @@ import com.lan.bo.currencykotlin.model.dto.ResponseDto
 import com.lan.bo.currencykotlin.model.exception.ParameterException
 import com.lan.bo.currencykotlin.model.repo.CurrencyRepository
 import com.lan.bo.currencykotlin.service.CurrencyService
-import org.slf4j.Logger
-import org.slf4j.LoggerFactory
+
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.data.domain.PageRequest
 import org.springframework.data.domain.Sort
@@ -27,9 +26,7 @@ class CurrencyBla(
     private val currencyRepository: CurrencyRepository
 )
 {
-    companion object{
-        val LOGGER: Logger = LoggerFactory.getLogger(CurrencyBla::class.java)
-    }
+
 
     @Value("\${api.url}")
     lateinit var apiUrl: String

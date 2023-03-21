@@ -1,19 +1,21 @@
 package com.lan.bo.currencykotlin.service
 
 
-import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
+
+import com.fasterxml.jackson.databind.ObjectMapper
 import com.lan.bo.currencykotlin.model.ErrorModel
 import com.lan.bo.currencykotlin.model.InformationModel
 import com.lan.bo.currencykotlin.model.exception.ParameterException
 import okhttp3.OkHttpClient
 import org.springframework.beans.factory.annotation.Value
+import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder
 import org.springframework.stereotype.Service
 import java.math.BigDecimal
 
 @Service
 class CurrencyService {
     private val client = OkHttpClient()
-    private val mapper = jacksonObjectMapper()
+    private val mapper = ObjectMapper()
 
 
     @Value("\${api.url}")
