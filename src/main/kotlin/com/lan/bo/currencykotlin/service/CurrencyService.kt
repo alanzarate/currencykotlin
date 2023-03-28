@@ -3,6 +3,7 @@ package com.lan.bo.currencykotlin.service
 
 
 import com.fasterxml.jackson.databind.ObjectMapper
+import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.lan.bo.currencykotlin.model.ErrorModel
 import com.lan.bo.currencykotlin.model.InformationModel
 import com.lan.bo.currencykotlin.model.exception.ParameterException
@@ -15,7 +16,7 @@ import java.math.BigDecimal
 @Service
 class CurrencyService {
     private val client = OkHttpClient()
-    private val mapper = ObjectMapper()
+    private val mapper = jacksonObjectMapper()
 
 
     @Value("\${api.url}")

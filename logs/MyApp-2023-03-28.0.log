@@ -1,0 +1,151 @@
+2023-03-28 15:55:35,028 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - Starting CurrencykotlinApplicationKt using Java 11.0.17 on lanplay-pc with PID 19485 (/home/lanplay/University/Arqui/currencykotlin/target/classes started by lanplay in /home/lanplay/University/Arqui/currencykotlin)
+2023-03-28 15:55:35,031 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 15:55:35,666 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-28 15:55:35,729 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+2023-03-28 15:55:36,221 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 7777 (http)
+2023-03-28 15:55:36,228 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-7777"]
+2023-03-28 15:55:36,228 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-03-28 15:55:36,228 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-28 15:55:36,349 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-03-28 15:55:36,349 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1196 ms
+2023-03-28 15:55:36,436 [main] ERROR o.a.c.c.C.[Tomcat].[localhost].[/]                 - For security constraints with URL pattern [/api/v1/currency/convert] only the HTTP methods [GET] are covered. All other methods are uncovered.
+2023-03-28 15:55:36,437 [main] ERROR o.a.c.c.C.[Tomcat].[localhost].[/]                 - For security constraints with URL pattern [/api/v1/currency/all] only the HTTP methods [GET] are covered. All other methods are uncovered.
+2023-03-28 15:55:36,587 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-28 15:55:36,644 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-28 15:55:36,807 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-28 15:55:36,907 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-03-28 15:55:37,279 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-03-28 15:55:37,303 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-03-28 15:55:37,663 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-28 15:55:37,670 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-28 15:55:38,117 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-28 15:55:38,380 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-7777"]
+2023-03-28 15:55:38,395 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 7777 (http) with context path ''
+2023-03-28 15:55:38,416 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - Started CurrencykotlinApplicationKt in 4.643 seconds (JVM running for 5.575)
+2023-03-28 15:56:29,993 [http-nio-7777-exec-1] INFO  org.keycloak.adapters.KeycloakDeployment           - Loaded URLs from http://172.18.8.229:8080/realms/testing2/.well-known/openid-configuration
+2023-03-28 15:56:30,073 [http-nio-7777-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28 15:56:30,074 [http-nio-7777-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-03-28 15:56:30,076 [http-nio-7777-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2023-03-28 16:04:34,907 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-28 16:04:34,912 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-03-28 16:04:34,921 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-03-28 16:04:47,815 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - Starting CurrencykotlinApplicationKt using Java 11.0.17 on lanplay-pc with PID 23482 (/home/lanplay/University/Arqui/currencykotlin/target/classes started by lanplay in /home/lanplay/University/Arqui/currencykotlin)
+2023-03-28 16:04:47,818 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 16:04:48,360 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-28 16:04:48,407 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2023-03-28 16:04:48,841 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 7777 (http)
+2023-03-28 16:04:48,849 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-7777"]
+2023-03-28 16:04:48,850 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-03-28 16:04:48,850 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-28 16:04:48,940 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-03-28 16:04:48,940 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1042 ms
+2023-03-28 16:04:49,003 [main] ERROR o.a.c.c.C.[Tomcat].[localhost].[/]                 - For security constraints with URL pattern [/api/v1/currency/convert] only the HTTP methods [GET] are covered. All other methods are uncovered.
+2023-03-28 16:04:49,003 [main] ERROR o.a.c.c.C.[Tomcat].[localhost].[/]                 - For security constraints with URL pattern [/api/v1/currency/all] only the HTTP methods [GET] are covered. All other methods are uncovered.
+2023-03-28 16:04:49,119 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-28 16:04:49,160 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-28 16:04:49,296 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-28 16:04:49,390 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-03-28 16:04:49,563 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-03-28 16:04:49,580 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-03-28 16:04:49,894 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-28 16:04:49,901 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-28 16:04:50,291 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-28 16:04:50,512 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-7777"]
+2023-03-28 16:04:50,526 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 7777 (http) with context path ''
+2023-03-28 16:04:50,541 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - Started CurrencykotlinApplicationKt in 3.035 seconds (JVM running for 3.572)
+2023-03-28 16:05:19,151 [http-nio-7777-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28 16:05:19,152 [http-nio-7777-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-03-28 16:05:19,153 [http-nio-7777-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2023-03-28 16:05:19,367 [http-nio-7777-exec-2] INFO  org.keycloak.adapters.KeycloakDeployment           - Loaded URLs from http://localhost:8080/realms/testing2/.well-known/openid-configuration
+2023-03-28 16:05:19,452 [http-nio-7777-exec-2] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-28 16:05:19,453 [http-nio-7777-exec-2] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-28 16:05:19,453 [http-nio-7777-exec-2] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-28 16:05:19,453 [http-nio-7777-exec-2] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-28 16:09:18,380 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-28 16:09:18,384 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-03-28 16:09:18,406 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-03-28 16:09:33,651 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - Starting CurrencykotlinApplicationKt using Java 11.0.17 on lanplay-pc with PID 25234 (/home/lanplay/University/Arqui/currencykotlin/target/classes started by lanplay in /home/lanplay/University/Arqui/currencykotlin)
+2023-03-28 16:09:33,667 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 16:09:34,338 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-28 16:09:34,405 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+2023-03-28 16:09:34,898 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 7777 (http)
+2023-03-28 16:09:34,905 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-7777"]
+2023-03-28 16:09:34,905 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-03-28 16:09:34,906 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-28 16:09:35,036 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-03-28 16:09:35,036 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1263 ms
+2023-03-28 16:09:35,137 [main] ERROR o.a.c.c.C.[Tomcat].[localhost].[/]                 - For security constraints with URL pattern [/api/v1/currency/convert] only the HTTP methods [GET] are covered. All other methods are uncovered.
+2023-03-28 16:09:35,139 [main] ERROR o.a.c.c.C.[Tomcat].[localhost].[/]                 - For security constraints with URL pattern [/api/v1/currency/all] only the HTTP methods [GET] are covered. All other methods are uncovered.
+2023-03-28 16:09:35,292 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-28 16:09:35,347 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-28 16:09:35,502 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-28 16:09:35,616 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-03-28 16:09:35,825 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-03-28 16:09:35,841 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-03-28 16:09:36,215 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-28 16:09:36,221 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-28 16:09:36,705 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-28 16:09:36,978 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-7777"]
+2023-03-28 16:09:36,993 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 7777 (http) with context path ''
+2023-03-28 16:09:37,014 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - Started CurrencykotlinApplicationKt in 3.699 seconds (JVM running for 4.242)
+2023-03-28 16:09:47,110 [http-nio-7777-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28 16:09:47,111 [http-nio-7777-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-03-28 16:09:47,112 [http-nio-7777-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2023-03-28 16:09:47,421 [http-nio-7777-exec-2] INFO  org.keycloak.adapters.KeycloakDeployment           - Loaded URLs from http://172.18.8.229:8080/realms/testing2/.well-known/openid-configuration
+2023-03-28 17:31:51,553 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-28 17:31:51,560 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-03-28 17:31:51,574 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-03-28 17:32:10,928 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.lan.bo.currencykotlin.CurrencykotlinApplicationTests], using SpringBootContextLoader
+2023-03-28 17:32:10,938 [main] INFO  o.s.t.c.support.AbstractContextLoader              - Could not detect default resource locations for test class [com.lan.bo.currencykotlin.CurrencykotlinApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-28 17:32:10,940 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils       - Could not detect default configuration classes for test class [com.lan.bo.currencykotlin.CurrencykotlinApplicationTests]: CurrencykotlinApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-28 17:32:11,101 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Found @SpringBootConfiguration com.lan.bo.currencykotlin.CurrencykotlinApplication for test class com.lan.bo.currencykotlin.CurrencykotlinApplicationTests
+2023-03-28 17:32:11,306 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-03-28 17:32:11,343 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper        - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@9d157ff, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2f162cc0, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5df417a7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7c041b41, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7f69d591, org.springframework.test.context.support.DirtiesContextTestExecutionListener@61078690, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1cb3ec38, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@403132fc, org.springframework.test.context.event.EventPublishingTestExecutionListener@71c5b236, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2cab9998, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2f7a7219, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@669513d8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3a1d593e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4a8a60bc, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@361c294e]
+2023-03-28 17:32:11,945 [main] INFO  c.l.b.c.CurrencykotlinApplicationTests             - Starting CurrencykotlinApplicationTests using Java 11.0.17 on lanplay-pc with PID 27807 (started by lanplay in /home/lanplay/University/Arqui/currencykotlin)
+2023-03-28 17:32:11,947 [main] INFO  c.l.b.c.CurrencykotlinApplicationTests             - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 17:32:13,165 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-28 17:32:13,228 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2023-03-28 17:32:13,921 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-28 17:32:14,030 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-28 17:32:14,302 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-28 17:32:14,483 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-03-28 17:32:14,869 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-03-28 17:32:14,927 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-03-28 17:32:15,591 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-28 17:32:15,598 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-28 17:32:16,698 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-28 17:32:17,391 [main] INFO  c.l.b.c.CurrencykotlinApplicationTests             - Started CurrencykotlinApplicationTests in 6.001 seconds (JVM running for 7.599)
+2023-03-28 17:32:17,781 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-28 17:32:17,793 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-03-28 17:32:17,813 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-03-28 17:32:45,817 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - Starting CurrencykotlinApplicationKt using Java 11.0.17 on lanplay-pc with PID 28170 (/home/lanplay/University/Arqui/currencykotlin/target/classes started by lanplay in /home/lanplay/University/Arqui/currencykotlin)
+2023-03-28 17:32:45,820 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - No active profile set, falling back to 1 default profile: "default"
+2023-03-28 17:32:46,473 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-28 17:32:46,536 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2023-03-28 17:32:47,098 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 7777 (http)
+2023-03-28 17:32:47,106 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-7777"]
+2023-03-28 17:32:47,107 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-03-28 17:32:47,107 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-28 17:32:47,226 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-03-28 17:32:47,226 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1296 ms
+2023-03-28 17:32:47,312 [main] ERROR o.a.c.c.C.[Tomcat].[localhost].[/]                 - For security constraints with URL pattern [/api/v1/currency/convert] only the HTTP methods [GET] are covered. All other methods are uncovered.
+2023-03-28 17:32:47,314 [main] ERROR o.a.c.c.C.[Tomcat].[localhost].[/]                 - For security constraints with URL pattern [/api/v1/currency/all] only the HTTP methods [GET] are covered. All other methods are uncovered.
+2023-03-28 17:32:47,457 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-28 17:32:47,512 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-28 17:32:47,668 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-28 17:32:47,777 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-03-28 17:32:47,975 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-03-28 17:32:47,998 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-03-28 17:32:48,369 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-28 17:32:48,377 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-28 17:32:48,835 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-28 17:32:49,106 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-7777"]
+2023-03-28 17:32:49,123 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 7777 (http) with context path ''
+2023-03-28 17:32:49,140 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - Started CurrencykotlinApplicationKt in 3.69 seconds (JVM running for 4.313)
+2023-03-28 17:37:49,406 [http-nio-7777-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28 17:37:49,406 [http-nio-7777-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-03-28 17:37:49,407 [http-nio-7777-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2023-03-28 17:37:49,660 [http-nio-7777-exec-2] INFO  org.keycloak.adapters.KeycloakDeployment           - Loaded URLs from http://172.18.8.229:8080/realms/testing2/.well-known/openid-configuration
+2023-03-28 17:38:12,978 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-28 17:38:12,984 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-03-28 17:38:12,995 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.

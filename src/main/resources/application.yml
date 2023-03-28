@@ -21,13 +21,15 @@ server:
   port: 7777
 
 keycloak:
-  realm: Software
-  auth-server-url: http://localhost:8080
+  config:
+    import: optional:file:.env[.properties]
+  realm: testing2
+  auth-server-url: ${URL_KEYCLOAK}
   autodetect-bearer-only: true
   ssl-required: external
-  resource: Back
+  resource: backend
   credentials:
-    secret: mE7YQIqHrQvJoV5EUcqeto1Fad0JKqY5
+    secret: J82JDRDUaIyMABThMlFGvQid1jsULeG5
   use-resource-role-mappings: false
   security-constraints:
     - auth-roles:
@@ -37,4 +39,12 @@ keycloak:
           methods:
             - GET
           patterns:
-            - /api/currency/*
+            - /api/v1/currency/all
+    - auth-roles:
+        - USER
+      security-collections:
+        - name: SERVICIOS DEL USUARIO
+          methods:
+            - GET
+          patterns:
+            - /api/v1/currency/convert
