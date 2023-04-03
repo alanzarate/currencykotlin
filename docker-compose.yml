@@ -32,7 +32,7 @@ services:
       DB_USERNAME: ${DB_USERNAME}
       DB_URL: "jdbc:postgresql://databs:5432/currency"
       API_KEY: ${API_KEY}
-      URL_KEYCLOAK: http://192.168.100.206:8080
+      URL_KEYCLOAK: http://172.18.11.166:8080
     volumes:
       - ./logs/:/logs/
     depends_on:

@@ -17,7 +17,6 @@ class AdapterTimeSeries
                 currencies += entry.key
             }
 
-
             val datess = timeSeriesMode.rates.keys
             val map0: HashMap<String, HashMap<String, Double>> = HashMap()
 
@@ -27,13 +26,9 @@ class AdapterTimeSeries
                 val map1: LinkedHashMap<String, Double> = LinkedHashMap()
                 datess.forEach { e2 ->
                     map1[e2] = timeSeriesMode.rates[e2]!![e]!!
-
                 }
                 map0[e] = map1
-
             }
-
             return map0
-
         }
 }

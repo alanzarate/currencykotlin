@@ -42,6 +42,7 @@ class CurrencyApi (
 
     @GetMapping("/all")
     fun allMethod(@RequestParam customQuery: Map<String, String>): ResponseDto<Any> {
+        logger.info("This is a all query")
         val limit = customQuery["limit"]
         val currentPage = customQuery["currentPage"]
         val sortBy = customQuery["sortBy"]
