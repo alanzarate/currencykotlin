@@ -1,6 +1,7 @@
 package com.lan.bo.currencykotlin.api
 
 import com.lan.bo.currencykotlin.bl.CurrencyBla
+import com.lan.bo.currencykotlin.model.TimeSeriesMode
 
 import com.lan.bo.currencykotlin.model.dto.ResponseDto
 import okhttp3.OkHttpClient
@@ -19,6 +20,7 @@ class CurrencyApi (
 )
 {
     private val client = OkHttpClient()
+
     private val logger:Logger = LoggerFactory.getLogger(CurrencyApi::class.java)
 
 
@@ -47,6 +49,20 @@ class CurrencyApi (
         print("limite: $limit , currentPage: $currentPage , sortBy: $sortBy")
 
         return currencyBl.getAllData(limit, currentPage, sortBy, order)
+    }
+
+    @GetMapping("/timeseries")
+    fun getTimeSeries(@RequestParam customQuery: Map<String, String>): ResponseDto<TimeSeries> {
+        val base = customQuery["base"]
+        val symbol = customQuery["symbols"]
+        val start = customQuery["start"]
+        val end = customQuery["end"]
+        return currencyBl.getTimeSeries(base.toString(), symbol.toString(), start, end)
+    }
+
+    @GetMapping("/symbols")
+    fun getSymbols(): ResponseDto<Map<String, String>>{
+        return currencyBl.getSymbols()
     }
 
 }

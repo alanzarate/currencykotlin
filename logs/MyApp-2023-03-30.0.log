@@ -1,0 +1,459 @@
+2023-03-30 08:31:14,917 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 08:31:14,922 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-03-30 08:31:14,934 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-03-30 08:45:16,536 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - Starting CurrencykotlinApplicationKt using Java 11.0.17 on lanplay-pc with PID 62533 (/home/lanplay/University/Arqui/currencykotlin/target/classes started by lanplay in /home/lanplay/University/Arqui/currencykotlin)
+2023-03-30 08:45:16,538 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 08:45:17,245 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-30 08:45:17,286 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2023-03-30 08:45:17,851 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 7777 (http)
+2023-03-30 08:45:17,860 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-7777"]
+2023-03-30 08:45:17,861 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-03-30 08:45:17,861 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-30 08:45:17,950 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-03-30 08:45:17,950 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1342 ms
+2023-03-30 08:45:18,005 [main] ERROR o.a.c.c.C.[Tomcat].[localhost].[/]                 - For security constraints with URL pattern [/api/v1/currency/convert] only the HTTP methods [GET] are covered. All other methods are uncovered.
+2023-03-30 08:45:18,005 [main] ERROR o.a.c.c.C.[Tomcat].[localhost].[/]                 - For security constraints with URL pattern [/api/v1/currency/all] only the HTTP methods [GET] are covered. All other methods are uncovered.
+2023-03-30 08:45:18,109 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 08:45:18,148 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-30 08:45:18,258 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-30 08:45:18,331 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-03-30 08:45:18,478 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-03-30 08:45:18,497 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-03-30 08:45:18,817 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-30 08:45:18,825 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 08:45:19,259 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-30 08:45:19,525 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-7777"]
+2023-03-30 08:45:19,543 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 7777 (http) with context path ''
+2023-03-30 08:45:19,554 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - Started CurrencykotlinApplicationKt in 3.441 seconds (JVM running for 4.026)
+2023-03-30 08:51:49,843 [http-nio-7777-exec-1] INFO  org.keycloak.adapters.KeycloakDeployment           - Loaded URLs from http://localhost:8080/realms/testing2/.well-known/openid-configuration
+2023-03-30 08:54:38,929 [http-nio-7777-exec-8] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30 08:54:38,929 [http-nio-7777-exec-8] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-03-30 08:54:38,931 [http-nio-7777-exec-8] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2023-03-30 08:56:20,249 [http-nio-7777-exec-2] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 08:56:20,249 [http-nio-7777-exec-2] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 08:56:20,249 [http-nio-7777-exec-2] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 08:56:20,249 [http-nio-7777-exec-2] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 08:56:35,252 [http-nio-7777-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase                    - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1a1c46d4 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2023-03-30 08:56:40,263 [http-nio-7777-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase                    - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@dc5066 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2023-03-30 08:56:45,271 [http-nio-7777-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase                    - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2f1b3489 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2023-03-30 08:56:50,279 [http-nio-7777-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase                    - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@69a5a03b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2023-03-30 08:56:55,286 [http-nio-7777-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase                    - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@138ceae9 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2023-03-30 08:57:00,292 [http-nio-7777-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase                    - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@18492b6e (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2023-03-30 08:57:00,294 [http-nio-7777-exec-2] WARN  o.h.engine.jdbc.spi.SqlExceptionHelper             - SQL Error: 0, SQLState: 08003
+2023-03-30 08:57:00,294 [http-nio-7777-exec-2] ERROR o.h.engine.jdbc.spi.SqlExceptionHelper             - HikariPool-1 - Connection is not available, request timed out after 30059ms.
+2023-03-30 08:57:00,294 [http-nio-7777-exec-2] ERROR o.h.engine.jdbc.spi.SqlExceptionHelper             - This connection has been closed.
+2023-03-30 08:57:00,308 [http-nio-7777-exec-2] ERROR o.a.c.c.C.[.[.[/].[dispatcherServlet]              - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection] with root cause
+org.postgresql.util.PSQLException: This connection has been closed.
+	at org.postgresql.jdbc.PgConnection.checkClosed(PgConnection.java:883)
+	at org.postgresql.jdbc.PgConnection.setNetworkTimeout(PgConnection.java:1620)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:566)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:173)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:186)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:162)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:38)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:108)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:138)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getConnectionForTransactionManagement(LogicalConnectionManagedImpl.java:276)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.begin(LogicalConnectionManagedImpl.java:284)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.begin(JdbcResourceLocalTransactionCoordinatorImpl.java:246)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.begin(TransactionImpl.java:83)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:164)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:421)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.MethodInvocationValidator.invoke(MethodInvocationValidator.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy98.save(Unknown Source)
+	at com.lan.bo.currencykotlin.bl.CurrencyBla.structData(CurrencyBla.kt:168)
+	at com.lan.bo.currencykotlin.bl.CurrencyBla.getData(CurrencyBla.kt:117)
+	at com.lan.bo.currencykotlin.api.CurrencyApi.controllerMethod(CurrencyApi.kt:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.keycloak.adapters.tomcat.AbstractAuthenticatedActionsValve.invoke(AbstractAuthenticatedActionsValve.java:67)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:660)
+	at org.keycloak.adapters.tomcat.AbstractKeycloakAuthenticatorValve.invoke(AbstractKeycloakAuthenticatorValve.java:181)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-03-30 08:57:17,674 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 08:57:17,676 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-03-30 08:57:26,242 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-03-30 08:57:49,640 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - Starting CurrencykotlinApplicationKt using Java 11.0.17 on lanplay-pc with PID 64415 (/home/lanplay/University/Arqui/currencykotlin/target/classes started by lanplay in /home/lanplay/University/Arqui/currencykotlin)
+2023-03-30 08:57:49,643 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 08:57:50,287 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-30 08:57:50,330 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2023-03-30 08:57:50,903 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 7777 (http)
+2023-03-30 08:57:50,913 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-7777"]
+2023-03-30 08:57:50,914 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-03-30 08:57:50,914 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-30 08:57:50,994 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-03-30 08:57:50,994 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1283 ms
+2023-03-30 08:57:51,046 [main] ERROR o.a.c.c.C.[Tomcat].[localhost].[/]                 - For security constraints with URL pattern [/api/v1/currency/convert] only the HTTP methods [GET] are covered. All other methods are uncovered.
+2023-03-30 08:57:51,047 [main] ERROR o.a.c.c.C.[Tomcat].[localhost].[/]                 - For security constraints with URL pattern [/api/v1/currency/all] only the HTTP methods [GET] are covered. All other methods are uncovered.
+2023-03-30 08:57:51,143 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 08:57:51,181 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-30 08:57:51,303 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-30 08:57:51,378 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-03-30 08:57:55,483 [main] ERROR com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: The connection attempt failed.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:331)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:402)
+	at org.postgresql.Driver.connect(Driver.java:261)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.lan.bo.currencykotlin.CurrencykotlinApplicationKt.main(CurrencykotlinApplication.kt:24)
+Caused by: java.net.NoRouteToHostException: No route to host (Host unreachable)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:615)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:241)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:109)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	... 50 common frames omitted
+2023-03-30 08:57:55,484 [main] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator               - HHH000342: Could not obtain connection to query metadata
+org.postgresql.util.PSQLException: The connection attempt failed.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:331)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:402)
+	at org.postgresql.Driver.connect(Driver.java:261)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.lan.bo.currencykotlin.CurrencykotlinApplicationKt.main(CurrencykotlinApplication.kt:24)
+Caused by: java.net.NoRouteToHostException: No route to host (Host unreachable)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:615)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:241)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:109)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	... 50 common frames omitted
+2023-03-30 08:57:55,487 [main] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean     - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2023-03-30 08:57:55,489 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2023-03-30 08:57:55,492 [main] INFO  org.apache.catalina.core.StandardService           - Stopping service [Tomcat]
+2023-03-30 08:57:55,505 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-30 08:57:55,527 [main] ERROR o.springframework.boot.SpringApplication           - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.lan.bo.currencykotlin.CurrencykotlinApplicationKt.main(CurrencykotlinApplication.kt:24)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:138)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 33 common frames omitted
+2023-03-30 08:58:35,250 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - Starting CurrencykotlinApplicationKt using Java 11.0.17 on lanplay-pc with PID 64597 (/home/lanplay/University/Arqui/currencykotlin/target/classes started by lanplay in /home/lanplay/University/Arqui/currencykotlin)
+2023-03-30 08:58:35,253 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - No active profile set, falling back to 1 default profile: "default"
+2023-03-30 08:58:36,141 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-30 08:58:36,181 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2023-03-30 08:58:36,901 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 7777 (http)
+2023-03-30 08:58:36,910 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-7777"]
+2023-03-30 08:58:36,910 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-03-30 08:58:36,911 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-30 08:58:36,997 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-03-30 08:58:36,997 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1683 ms
+2023-03-30 08:58:37,059 [main] ERROR o.a.c.c.C.[Tomcat].[localhost].[/]                 - For security constraints with URL pattern [/api/v1/currency/convert] only the HTTP methods [GET] are covered. All other methods are uncovered.
+2023-03-30 08:58:37,059 [main] ERROR o.a.c.c.C.[Tomcat].[localhost].[/]                 - For security constraints with URL pattern [/api/v1/currency/all] only the HTTP methods [GET] are covered. All other methods are uncovered.
+2023-03-30 08:58:37,165 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 08:58:37,212 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-30 08:58:37,323 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-30 08:58:37,398 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-03-30 08:58:37,528 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-03-30 08:58:37,558 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-03-30 08:58:37,879 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-30 08:58:37,887 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 08:58:38,432 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-30 08:58:38,749 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-7777"]
+2023-03-30 08:58:38,765 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 7777 (http) with context path ''
+2023-03-30 08:58:38,776 [main] INFO  c.l.b.c.CurrencykotlinApplicationKt                - Started CurrencykotlinApplicationKt in 3.99 seconds (JVM running for 4.593)
+2023-03-30 09:00:42,063 [http-nio-7777-exec-1] INFO  org.keycloak.adapters.KeycloakDeployment           - Loaded URLs from http://localhost:8080/realms/testing2/.well-known/openid-configuration
+2023-03-30 09:00:42,119 [http-nio-7777-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30 09:00:42,119 [http-nio-7777-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-03-30 09:00:42,121 [http-nio-7777-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2023-03-30 09:00:42,150 [http-nio-7777-exec-1] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 09:00:42,150 [http-nio-7777-exec-1] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 09:00:42,150 [http-nio-7777-exec-1] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 09:00:42,150 [http-nio-7777-exec-1] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 09:03:03,093 [http-nio-7777-exec-3] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 09:03:03,094 [http-nio-7777-exec-3] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 09:03:03,096 [http-nio-7777-exec-3] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 09:03:03,098 [http-nio-7777-exec-3] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 09:06:20,664 [http-nio-7777-exec-5] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 09:06:20,664 [http-nio-7777-exec-5] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 09:06:20,665 [http-nio-7777-exec-5] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 09:06:20,665 [http-nio-7777-exec-5] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 09:07:45,583 [http-nio-7777-exec-7] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 09:07:45,583 [http-nio-7777-exec-7] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 09:07:45,584 [http-nio-7777-exec-7] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 09:07:45,584 [http-nio-7777-exec-7] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 09:14:06,922 [http-nio-7777-exec-10] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 09:14:06,922 [http-nio-7777-exec-10] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 09:14:06,922 [http-nio-7777-exec-10] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 09:14:06,922 [http-nio-7777-exec-10] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 09:14:19,856 [http-nio-7777-exec-1] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 09:14:19,856 [http-nio-7777-exec-1] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 09:14:19,856 [http-nio-7777-exec-1] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 09:14:19,857 [http-nio-7777-exec-1] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 09:14:35,474 [http-nio-7777-exec-2] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 09:14:35,474 [http-nio-7777-exec-2] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 09:14:35,474 [http-nio-7777-exec-2] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 09:14:35,474 [http-nio-7777-exec-2] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 09:14:50,622 [http-nio-7777-exec-3] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 09:14:50,622 [http-nio-7777-exec-3] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 09:14:50,622 [http-nio-7777-exec-3] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 09:14:50,622 [http-nio-7777-exec-3] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 09:15:05,039 [http-nio-7777-exec-4] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 09:15:05,039 [http-nio-7777-exec-4] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 09:15:05,039 [http-nio-7777-exec-4] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 09:15:05,039 [http-nio-7777-exec-4] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 09:17:27,783 [http-nio-7777-exec-7] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 09:17:27,783 [http-nio-7777-exec-7] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 09:17:27,783 [http-nio-7777-exec-7] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 09:17:27,783 [http-nio-7777-exec-7] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 09:19:55,865 [http-nio-7777-exec-9] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 09:19:55,865 [http-nio-7777-exec-9] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 09:19:55,865 [http-nio-7777-exec-9] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 09:19:55,865 [http-nio-7777-exec-9] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 09:20:10,046 [http-nio-7777-exec-10] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 09:20:10,047 [http-nio-7777-exec-10] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 09:20:10,047 [http-nio-7777-exec-10] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 09:20:10,047 [http-nio-7777-exec-10] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 09:41:31,969 [http-nio-7777-exec-2] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 09:41:31,969 [http-nio-7777-exec-2] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 09:41:31,969 [http-nio-7777-exec-2] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 09:41:31,969 [http-nio-7777-exec-2] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 09:44:09,439 [http-nio-7777-exec-4] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 09:44:09,439 [http-nio-7777-exec-4] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 09:44:09,440 [http-nio-7777-exec-4] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 09:44:09,440 [http-nio-7777-exec-4] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 10:27:12,948 [http-nio-7777-exec-6] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 10:27:12,948 [http-nio-7777-exec-6] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 10:27:12,948 [http-nio-7777-exec-6] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 10:27:12,948 [http-nio-7777-exec-6] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 10:41:58,457 [http-nio-7777-exec-8] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 10:41:58,457 [http-nio-7777-exec-8] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 10:41:58,457 [http-nio-7777-exec-8] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 10:41:58,458 [http-nio-7777-exec-8] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 10:55:42,801 [http-nio-7777-exec-10] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 10:55:42,801 [http-nio-7777-exec-10] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 10:55:42,801 [http-nio-7777-exec-10] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 10:55:42,801 [http-nio-7777-exec-10] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 10:57:40,805 [http-nio-7777-exec-2] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 10:57:40,806 [http-nio-7777-exec-2] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 10:57:40,806 [http-nio-7777-exec-2] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 10:57:40,806 [http-nio-7777-exec-2] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 11:01:43,789 [http-nio-7777-exec-4] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 11:01:43,789 [http-nio-7777-exec-4] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 11:01:43,790 [http-nio-7777-exec-4] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 11:01:43,790 [http-nio-7777-exec-4] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 11:02:06,315 [http-nio-7777-exec-5] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 11:02:06,316 [http-nio-7777-exec-5] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 11:02:06,316 [http-nio-7777-exec-5] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 11:02:06,316 [http-nio-7777-exec-5] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 11:02:21,272 [http-nio-7777-exec-6] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 11:02:21,273 [http-nio-7777-exec-6] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 11:02:21,273 [http-nio-7777-exec-6] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 11:02:21,273 [http-nio-7777-exec-6] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 11:27:52,932 [http-nio-7777-exec-8] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Hi, Sam info log
+2023-03-30 11:27:52,933 [http-nio-7777-exec-8] INFO  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy info message
+2023-03-30 11:27:52,933 [http-nio-7777-exec-8] WARN  c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy warning message.
+2023-03-30 11:27:52,933 [http-nio-7777-exec-8] ERROR c.lan.bo.currencykotlin.api.CurrencyApi            - Dummy error message.
+2023-03-30 13:29:42,482 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-30 13:29:42,484 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-03-30 13:29:42,496 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.

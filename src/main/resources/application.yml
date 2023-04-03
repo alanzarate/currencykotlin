@@ -26,7 +26,7 @@ keycloak:
   realm: testing2
   auth-server-url: ${URL_KEYCLOAK}
   autodetect-bearer-only: true
-  ssl-required: external
+  ssl-required: none
   resource: backend
   credentials:
     secret: J82JDRDUaIyMABThMlFGvQid1jsULeG5
