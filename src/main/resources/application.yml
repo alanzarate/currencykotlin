@@ -1,6 +1,7 @@
 api:
   key: ${API_KEY}
   url: "https://api.apilayer.com/exchangerates_data/convert"
+  #url: "https://api.apilayer.com/exchangerates_data/convert"
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
@@ -11,7 +12,7 @@ spring:
   config:
     import: optional:file:.env[.properties]
   application:
-    name: currency-converter
+    name: currencykotlin
   jpa:
     hibernate:
       ddl-auto: update
